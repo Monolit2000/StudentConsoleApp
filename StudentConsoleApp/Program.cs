@@ -30,6 +30,7 @@
                 student.SetGrant();
             });
 
+            //6. Print information about one of the students to the console
             var selectedStudent = students.FirstOrDefault();
 
             if (selectedStudent != null)
